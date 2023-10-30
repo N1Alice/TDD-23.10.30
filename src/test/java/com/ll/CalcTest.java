@@ -64,4 +64,12 @@ public class CalcTest {
         int rs = Calc.run("10 * 15");
         assertThat(rs).isEqualTo(150);
     }
+
+    @Test
+    @DisplayName("100 / 5 = 20")
+    void t9() {
+        int rs = Calc.run("100 / 5");
+        assertThat(rs).isEqualTo(20);
+
+    }
 }
